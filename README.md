@@ -6,6 +6,10 @@
 
 ## List Of Project Zero To High Sorted
 
-### BranchName                    ProjectName                    ProjectLevel
-
-    HelloWorld                    Hello World                    Beginner
+     -------------------------------------------------------------------------------------------
+    |   ProjectBranch           |       ProjectName                |    ProjectLevel            |
+     -------------------------------------------------------------------------------------------
+    |   HelloWorld              |       HelloWorld                 |    Beginner                |
+     -------------------------------------------------------------------------------------------
+    |   Calculator              |       Calculator                 |    Beginner                |
+     -------------------------------------------------------------------------------------------
