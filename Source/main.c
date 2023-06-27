@@ -2,7 +2,7 @@
 
 int main(int argc, const char *argv[])
 {
-    printf_s("%s%c", "Hello, World!", '\n');
+    printf("%s%c", "Hello, World!", '\n');
 
     return 0;
 }
