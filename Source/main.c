@@ -52,12 +52,8 @@ void ClearInputBuffer(void)
 
 unsigned long long int GenerateFactorial(unsigned long long int Number)
 {
-    unsigned long long int FactorialOfNumber = (unsigned long long int)1;
-
-    for (unsigned long long int Counter = (unsigned long long int)1; Counter <= Number; Counter++)
-    {
-        FactorialOfNumber = FactorialOfNumber * Counter;
-    }
-
-    return FactorialOfNumber;
+    if (Number <= 0)
+        return (unsigned long long int)1;
+    else
+        return (Number * GenerateFactorial(Number - (unsigned long long int)1));
 }
