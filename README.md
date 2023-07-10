@@ -30,6 +30,8 @@
      -------------------------------------------------------------------------------------------             
     |   FactorialCalculator     |       FactorialCalculator        |    Beginner                |
      -------------------------------------------------------------------------------------------
+    |   FactorialCalculator2    |       FactorialCalculator2       |    Beginner                |
+     -------------------------------------------------------------------------------------------
     |   PalindromeChecker       |       PalindromeChecker          |    Beginner                |
      -------------------------------------------------------------------------------------------
     |   PrimeNumberChecker      |       PrimeNumberChecker         |    Beginner                |
