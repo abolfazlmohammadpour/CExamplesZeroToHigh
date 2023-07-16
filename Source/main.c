@@ -5,6 +5,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <string.h>
+#include <time.h>
 
 void ClearInputBuffer(void);
 
@@ -86,7 +87,7 @@ int main(int argc, const char *argv[])
     }
 
     // Generating Password
-    srand(UserRandomNumber);
+    srand(((int)time(NULL) / UserRandomNumber));
 
     for (unsigned short int Counter = (unsigned short int)0; Counter < (unsigned short int)32; Counter += 4)
     {
